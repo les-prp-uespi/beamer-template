@@ -15,19 +15,20 @@
 \definecolor{oxygenlightgray}{HTML}{eeeeee}
 \definecolor{oxygenblue}{HTML}{263F99}
 \definecolor{frame}{HTML}{061F7a}
-\definecolor{redrise}{HTML}{D40B01} % vermelho RiSE 
+\definecolor{blueles}{HTML}{002255} % azul LES 
+\definecolor{redles}{HTML}{ed3237} % vermelho LES
 
-\setbeamercolor*{my colors}{bg=white,fg=redrise}
+\setbeamercolor*{my colors}{bg=white,fg=blueles}
 \setbeamercolor*{normal text}{use=my colors,parent=my colors}
 \setbeamercolor*{Title bar}{bg=black!85}
-\setbeamercolor*{Location bar}{fg=redrise}
+\setbeamercolor*{Location bar}{fg=blueles}
 \setbeamercolor*{frametitle}{use=my colors,parent=my colors}
 \setbeamercolor*{block title}{use=my colors,fg=white,parent=my colors,bg=oxygenblue}
 \setbeamercolor*{block body}{use=my colors,bg=my colors.bg!85!my colors.fg}
 \setbeamercolor*{section in toc}{use=normal text,parent=normal text}
 \setbeamercolor*{section in head/foot}{fg=black!80,bg=oxygenblue}
 \setbeamercolor*{section in toc shaded}{fg=oxygenblue}
-\setbeamercolor*{alerted text}{fg=red}
+\setbeamercolor*{alerted text}{fg=redles}
 \setbeamercolor*{description item}{fg=oxygenblue}
 \setbeamercolor*{navigation symbols}{use=my colors}
 \setbeamercolor*{itemize item}{fg=black}
@@ -59,7 +60,7 @@
 
 
 % Suppress navigation symbols
-\defbeamertemplate*{navigation symbols}{RiSE}{}
+\defbeamertemplate*{navigation symbols}{LES}{}
 
 % \setbeamertemplate{background}
 % {\includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio]{../img/background}
@@ -91,7 +92,7 @@
         \usebeamerfont{institute}\insertinstitute
         \end{minipage}
       }
-      (7.5,-.2) node[anchor=north west, inner sep=0cm]{\includegraphics[scale=.05]{../img/rise}}
+      (7.5,-.2) node[anchor=north west, inner sep=0cm]{\includegraphics[scale=.2]{../img/les}}
       (3,-3) node[anchor=north west]{
       \begin{minipage}{9cm}
         \usebeamerfont{date}\insertdate
@@ -122,7 +123,7 @@
 \usebeamerfont{frametitle}%
 % \hspace{-4ex}\fcolorbox{white}{black!15}{\hspace{2ex}\insertframetitle\strut}%
 
-\hspace{-4ex}\framecolorbox[10.5cm][l]{white}{black!15}{\hspace{2ex}\strut\insertframetitle\strut}
+\hspace{-4ex}\framecolorbox[11cm][l]{white}{black!15}{\hspace{2ex}\strut\insertframetitle\strut}
 }
 
 
